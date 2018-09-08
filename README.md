@@ -1,6 +1,6 @@
 # mem_malloc
 
-$ cd mem_malloc
+$ cd cqy_malloc
 
 $ make
 
