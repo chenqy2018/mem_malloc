@@ -126,7 +126,6 @@ int mem_realloc(int id, unsigned int msize){
 							ptr_tmp->mem_size = msize;
 						}
 					}
-					printf("-----ok-----\n");
 					return 1;				
 				}
 			}
