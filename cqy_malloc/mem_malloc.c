@@ -98,8 +98,7 @@ void mem_free(int id){
 				for(int j=move_size; j>0; j--){
 					*dst_addr-- = *src_addr--;
 				}
-				int len = dst_addr - src_addr + 1;
-				memset(src_addr, 0, len);
+				memset(src_addr, 0, offset+1);
 				for(int j=0; j<(n-1); j++){
 					ptr_tmp = (mem_block *)(MEM_START + BLK_SIZE*(i+j));
 					ptr_old = (mem_block *)(MEM_START + BLK_SIZE*(i+j+1));
