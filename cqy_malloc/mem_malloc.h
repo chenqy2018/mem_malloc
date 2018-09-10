@@ -26,8 +26,9 @@ void print_mem_info(void);
 void print_hex(char *data, int len);
 void print_mem_hex(int size);
 int mem_malloc(unsigned int msize);
+int mem_realloc(int id, unsigned int msize);
 void *mem_buffer(int id);
-void mem_free(int id);
+int mem_free(int id);
 
 
 #ifdef __cplusplus
