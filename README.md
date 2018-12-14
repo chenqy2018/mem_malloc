@@ -5,6 +5,7 @@ $ cd cqy_malloc
 $ make
 
 $ ./test  
+
 ------------mem_info--------------   
 sizeof(mem_block)=12  
 MEM_START = 134525056(0x804b080)  
